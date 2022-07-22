@@ -1,0 +1,40 @@
+window {
+margin: 0px;
+border: 1px solid #1A1B27;
+background-color: #95AAC3;
+}
+
+#input {
+margin: 3px;
+border: none;
+color: #f8f8f2;
+background-color: #424967;
+}
+
+#inner-box {
+margin: 3px;
+border: none;
+background-color: #1A1B27;
+}
+
+#outer-box {
+margin: 3px;
+border: none;
+background-color: #1A1B27;
+}
+
+#scroll {
+margin: 0px;
+border: none;
+}
+
+#text {
+margin: 3px;
+border: none;
+color: #f8f8f2;
+} 
+
+#entry:selected {
+background-color: #424967;
+}
+ 
