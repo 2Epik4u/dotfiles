@@ -1,6 +1,6 @@
 # dotfile
 
-![epicdesktop](./etc/gscreenshot_2022-09-05-002316.png)
+![epicdesktop](./etc/gscreenshot_2022-09-15-164432.png)
 
 # Stuff 
 * gtk theme: [Catpuccin-blue](https://github.com/catppuccin/gtk)
