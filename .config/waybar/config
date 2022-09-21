@@ -58,15 +58,4 @@
         "format": " ",
         "on-click": "wofi --show drun -I",
         "on-click-right": "killall wofi"
-    },
-    "custom/power":{
-        "format": "襤",
-        /* "on-click": "bash ~/.config/rofi/leave/leave.sh", */
-        /* "on-click":"rofi-powermenu" */
-        "on-click": "wlogout -p layer-shell"
-    },
-    /*"custom/wallpaper":{
-        "format":" ",
-        "on-click": "bash ~/.config/system_scripts/pkill_bc"
-    }*/
-}
+    }
