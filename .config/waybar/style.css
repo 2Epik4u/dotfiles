@@ -25,6 +25,7 @@ window#waybar.hidden {
 	color: #96CDFB;
 	background: #1E1E2E;
 	/*background: #1A1826;*/
+	border: 3px solid #96CDFB;
 }
 
 #tags {
@@ -38,44 +39,7 @@ window#waybar.hidden {
 	transition: none;
 }
 
-#tags button {
-	transition: none;
-	color: #a89984;
-	background: transparent;
-	font-size: 16px;
-	border-radius: 2px;
-}
 
-#tags button.occupied {
-	transition: none;
-	color: #BF826A;
-	background: transparent;
-	font-size: 4px;
-}
-
-#tags button.focused {
-	color: #aceaa5;
-    border-top: 2px solid #aceaa5;
-    border-bottom: 2px solid #aceaa5;
-}
-
-#tags button:hover {
-	transition: none;
-	box-shadow: inherit;
-	text-shadow: inherit;
-	color: #ebdbb2;
-    border-color: #aceaa5;
-    color: #ebdbb2;
-}
-
-#tags button.focused:hover {
-    color: #ebdbb2;
-}
-
-#tags button.urgent {
-        border-top: 2px solid #fb4934;
-        border-bottom: 2px solid #fb4934;
-}
 
 #workspaces button {
 		padding: 0 5px;
@@ -96,6 +60,7 @@ window#waybar.hidden {
 	transition: none;
 	color: #96CDFB;
 	background: #1E1E2E;
+	border: 3px solid #96CDFB;
 }
 
 #workspaces button:hover {
@@ -134,6 +99,7 @@ window#waybar.hidden {
 	transition: none;
 	color: #96CDFB;
 	background: #1E1E2E;
+	border: 3px solid #96CDFB;
 }
 
 #pulseaudio {
@@ -146,6 +112,7 @@ window#waybar.hidden {
 	transition: none;
 	color: #96CDFB;
 	background: #1E1E2E;
+	border: 3px solid #96CDFB;
 }
 
 
@@ -167,6 +134,7 @@ window#waybar.hidden {
 	transition: none;
 	color: #96CDFB;
 	background: #1E1E2E;
+	border: 3px solid #96CDFB;
 }
 #clock {
 	margin-top: 6px;
@@ -179,6 +147,7 @@ window#waybar.hidden {
 	color: #96CDFB;
 	background: #1E1E2E;
 	/*background: #1A1826;*/
+	border: 3px solid #96CDFB;
 }
 
 #memory {
@@ -191,6 +160,7 @@ window#waybar.hidden {
 	transition: none;
 	color: #96CDFB;
 	background: #1E1E2E;
+	border: 3px solid #96CDFB;
 }
 #cpu {
 	margin-top: 6px;
@@ -202,6 +172,7 @@ window#waybar.hidden {
 	transition: none;
 	color: #96CDFB;
 	background: #1E1E2E;
+	border: 3px solid #96CDFB;
 }
 
 #tray {
@@ -214,6 +185,7 @@ window#waybar.hidden {
 	transition: none;
 	color: #96CDFB;
 	background: #1E1E2E;
+	border: 3px solid #96CDFB;
 }
 
 #custom-launcher {
@@ -226,6 +198,7 @@ window#waybar.hidden {
 	transition: none;
 	color: #96CDFB;
 	background: #1E1E2E;
+	border: 3px solid #96CDFB;
 }
 
 #custom-power {
@@ -241,10 +214,11 @@ window#waybar.hidden {
 	transition: none;
 	color: #96CDFB;
 	background: #1E1E2E;
+	border: 3px solid #96CDFB;
 }
 
 #disk {
-	font-size: 20px;
+	font-size: 16px;
 	margin-top: 6px;
 	margin-left: 8px;
 	padding-left: 10px;
@@ -253,4 +227,5 @@ window#waybar.hidden {
 	transition: none;
 	color: #96CDFB;
 	background: #1E1E2E;
+	border: 3px solid #96CDFB;
 }

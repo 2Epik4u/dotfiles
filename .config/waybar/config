@@ -42,7 +42,7 @@
 	},
     "clock": {
         "format": "{: %I:%M %p }",
-        "format-alt": "{: %I:%M %p   %d/%m/%Y}"
+        "format-alt": "{: %I:%M %p   %m/%d/%Y}"
     },
     "cpu": {
         "interval": 15,
@@ -58,4 +58,9 @@
         "format": " ",
         "on-click": "wofi --show drun -I",
         "on-click-right": "killall wofi"
-    }
+    },
+    "custom/power":{
+        "format": "襤",
+        "on-click": "wlogout -p layer-shell"
+    },
+}

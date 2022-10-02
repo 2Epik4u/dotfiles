@@ -87,16 +87,16 @@
 
     # Defines width in pixels of frame around the notification window.
     # Set to 0 to disable.
-    frame_width = 5
+    frame_width = 3
 
     # Defines color of the frame around the notification window.
-    frame_color = "#424B5D"
+    frame_color = "#96CDFB"
 
     # Size of gap to display between notifications - requires a compositor.
     # If value is greater than 0, separator_height will be ignored and a border
     # of size frame_width will be drawn around each notification instead.
     # Click events on gaps do not currently propagate to applications below.
-    gap_size = 0
+    gap_size = 1
 
     # Define a color for the separator.
     # possible values are:
