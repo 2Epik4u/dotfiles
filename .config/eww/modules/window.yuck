@@ -1,0 +1,9 @@
+(deflisten window :initial "..." "bash ~/.config/eww/scripts/windowtitle")
+(defwidget window_w []
+  (box
+    (label 
+    :limit-width 50
+    :text "${window}" 
+    )
+  )
+)
