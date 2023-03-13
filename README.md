@@ -1,6 +1,5 @@
 # dotfile
 
-![epicdesktop](./etc/2023-01-16_22-01-1673927058.png)
 
 # Stuff 
 * gtk theme: [Catppuccin-Mocha-Blue](https://github.com/catppuccin/gtk)
