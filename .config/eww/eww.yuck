@@ -21,7 +21,8 @@
   (box
     :space-evenly false
     :halign "end"
-    (sys)
+    (systray)
+    (sys) 
     (clock_module)))
 
 (defwidget center []

@@ -1,7 +1,8 @@
 .system-menu-box {
   @include window;
-  background-color: $bg;
-  border: 1px solid $border;
+  background-color: $crust;
+  border: 2px solid $border;
+  border-color: $overlay2;
   color: $text;
 }
 

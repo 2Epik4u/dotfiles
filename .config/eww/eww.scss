@@ -5,7 +5,7 @@
 }
 
 @mixin window {
-  border: 1px solid $border;
+  border: 5px solid $border;
   box-shadow: 0 2px 3px $shadow;
   margin: 5px 5px 10px;
   @include rounding;
@@ -15,6 +15,7 @@
   all: unset;
   font-family: "Jost *", Roboto, sans-serif;
   transition: 200ms ease;
+  
 }
 
 @import 'css/calendar';
@@ -24,7 +25,9 @@
 @import 'css/volume';
 
 .bar {
-  background-color: $bg;
+  border-radius: 16px;
+  
+  background-color: $crust;
   color: $fg;
 
   label {
@@ -75,5 +78,6 @@ scale trough {
   min-height: 10px;
   min-width: 70px;
 }
+
 
 .workspaces { margin-left: 10px; }
